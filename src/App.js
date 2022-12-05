@@ -8,25 +8,25 @@ function App() {
       id: "e1",
       title: "Book",
       amount: 254,
-      date: new Date(2021, 5, 6),
+      date: new Date(2021, 3, 3),
     },
     {
       id: "e2",
       title: "Pencil",
       amount: 365,
-      date: new Date(2021, 5, 6),
+      date: new Date(2021, 5, 5),
     },
     {
       id: "e3",
       title: "Wood Book",
       amount: 985,
-      date: new Date(2021, 5, 6),
+      date: new Date(2021, 7, 6),
     },
     {
       id: "e4",
       title: "Computer",
       amount: 320,
-      date: new Date(2021, 5, 6),
+      date: new Date(2021, 1, 1),
     },
   ];
   return (
