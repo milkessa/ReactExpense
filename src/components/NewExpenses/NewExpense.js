@@ -1,10 +1,11 @@
-import "./newExpense.css";
-const newExpense = () => {
+import "./NewExpense.css";
+import ExpenseForm from "./ExpenseForm";
+const NewExpense = () => {
   return (
-    <div className="new-expense">
-      <form action=''></form>
+    <div className='new-expense'>
+      <ExpenseForm />
     </div>
   );
 };
 
-export default newExpense;
+export default NewExpense;

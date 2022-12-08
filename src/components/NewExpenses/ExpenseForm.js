@@ -1,5 +1,5 @@
 import "./ExpenseForm.css";
-const expenseForm = () => {
+const ExpenseForm = () => {
   return (
     <form action=''>
       <div className='new-expense__controls'>
@@ -23,4 +23,4 @@ const expenseForm = () => {
   );
 };
 
-export default expenseForm;
+export default ExpenseForm;
