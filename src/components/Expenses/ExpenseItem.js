@@ -23,7 +23,7 @@ const ExpenseItem = (props) => {
           clickHandler();
         }}
       >
-        Change Titl
+        Change Title
       </button>
     </Card>
   );
