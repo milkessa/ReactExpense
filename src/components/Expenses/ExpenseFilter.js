@@ -1,7 +1,7 @@
 import "./ExpenseFilter.css";
-const filterHandler=(event)=>{
-    console.log(event.target.value)
-}
+const filterHandler = (event) => {
+  console.log(event.target.value);
+};
 const ExpensesFilter = () => {
   return (
     <div className='expenses-filter'>
