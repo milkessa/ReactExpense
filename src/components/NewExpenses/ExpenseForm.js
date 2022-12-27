@@ -26,7 +26,7 @@ const ExpenseForm = () => {
     const expenseData = {
       title: enteredTitle,
       amount: enteredAmount,
-      date: new Date(enteredDate),
+      date1: new Date(enteredDate),
     };
     console.log(expenseData);
     setEnteredTitle("");
@@ -62,7 +62,7 @@ const ExpenseForm = () => {
             min='2019-01-01'
             max='2022-02-09'
             value={enteredDate}
-            onchange={dateChangeHandler}
+            onChange={dateChangeHandler}
           />
         </div>
       </div>
